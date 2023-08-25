@@ -1,6 +1,6 @@
 {% set name = "jsonschema2md" %}
 {% set version = "0.9.0" %}
-{% set sha256 = "03611e87afdf43d5f2479d7cbd89f21589aa2c823b2e6c86ea2c1dc7cb25bbed" %}
+{% set sha256 = "3ef34181679c48bbd1ac228ad1d6441051ceef58ba90cba6b931d0368e00ec77" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}2/{{ name }}2-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
