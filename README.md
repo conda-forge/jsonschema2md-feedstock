@@ -1,7 +1,7 @@
 About jsonschema2md
 ===================
 
-Home: https://github.com/RalfG/jsonschema2md
+Home: https://github.com/sbrunner/jsonschema2md (previously https://github.com/RalfG/jsonschema2md)
 
 Package license: Apache-2.0
 
@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@ollyhensby](https://github.com/ollyhensby/)
+* [@brynpickering](https://github.com/brynpickering/)
 
