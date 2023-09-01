@@ -1,6 +1,6 @@
 {% set name = "jsonschema2md" %}
-{% set version = "0.9.0" %}
-{% set sha256 = "3ef34181679c48bbd1ac228ad1d6441051ceef58ba90cba6b931d0368e00ec77" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "01e18693c8dcdd643aa79ce757c5896877c590493422d23fd0bd76562fbc424b" %}
 
 package:
   name: {{ name|lower }}
@@ -21,11 +21,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.9
     - poetry >=1.5
   run:
-    - python >=3.7,<4
-    - PyYAML =6.0.0
+    - python >=3.9,<4
+    - PyYAML =6.0.1
 
 test:
   imports:
