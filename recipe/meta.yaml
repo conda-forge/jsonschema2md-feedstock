@@ -1,6 +1,6 @@
 {% set name = "jsonschema2md" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "942a00f8ed5d3ea6a0934a229a60b8d14e26e302cef06a68ea00baec19afae17" %}
+{% set version = "1.5.1" %}
+{% set sha256 = "cdfc2d0e795945b624bb5713edad853aa2f45f6f8ad6392088d53019dd8c9fab" %}
 
 package:
   name: {{ name|lower }}
