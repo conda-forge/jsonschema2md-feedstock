@@ -1,6 +1,6 @@
 {% set name = "jsonschema2md" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "942a00f8ed5d3ea6a0934a229a60b8d14e26e302cef06a68ea00baec19afae17" %}
+{% set version = "1.5.2" %}
+{% set sha256 = "338cc3909a25d1424b6823b13e17782d40f0faed97be42ba8abb22b96a1d82f9" %}
 
 package:
   name: {{ name|lower }}
@@ -26,7 +26,7 @@ requirements:
   run:
     - python >={{ python_min }},<4
     - PyYAML =6.0.2
-    - markdown
+    - markdown =3.7
 
 test:
   imports:
